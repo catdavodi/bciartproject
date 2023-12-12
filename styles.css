@@ -1,0 +1,63 @@
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    align-items: center; /* Align vertically in the center */
+}
+
+#connect-button, #circle-color, #background-color {
+    position: absolute; /* Absolute positioning for all elements */
+    top: 10px; /* Align to the top */
+    left: 10px; /* Align to the left */
+    margin-left: 10px;
+    border-radius: 5px; /* Rounded corners */
+}
+
+#connect-button {
+    background-color: red; /* Orange background */
+    color: white; /* White text */
+    border: none; /* No border */
+    border-radius: 20px; /* Rounded corners */
+    padding: 10px 15px; /* Padding for size */
+    font-size: 16px; /* Font size */
+    cursor: pointer; /* Cursor changes to pointer on hover */
+    transition: background-color 0.3s; /* Smooth transition for hover effect */
+    position: absolute; /* Absolute positioning */
+    left: 0; /* Align to the left */
+    margin-left: 10px;
+    top: 20px
+}
+
+#connect-button:hover {
+    background-color: darkred; /* Slightly darker orange on hover */
+}
+
+#circle-color {
+    background-color: red; /* Orange background */
+    color: white; /* White text */
+    border: none; /* No border */
+    border-radius: 20px; /* Rounded corners */
+    padding: 10px 15px; /* Padding for size */
+    font-size: 16px; /* Font size */
+    cursor: pointer; /* Cursor changes to pointer on hover */
+    transition: background-color 0.3s; /* Smooth transition for hover effect */
+    position: absolute; /* Absolute positioning */
+    margin-left: 10px;
+    left: 15px; /* Positioning next to the button */
+    top: 85px
+}
+
+#background-color {
+    background-color: red; /* Orange background */
+    color: white; /* White text */
+    border: none; /* No border */
+    border-radius: 20px; /* Rounded corners */
+    padding: 10px 15px; /* Padding for size */
+    font-size: 16px; /* Font size */
+    cursor: pointer; /* Cursor changes to pointer on hover */
+    transition: background-color 0.3s; /* Smooth transition for hover effect */
+    position: absolute; /* Absolute positioning */
+    margin-left: 10px;
+    left: 15px;
+    top: 140px /* Positioning next to the circle color picker */
+}
