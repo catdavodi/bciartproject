@@ -42,4 +42,4 @@ Contributing
 
 __Contact__
 
-For more information, please contact cdavodi@berkeley.edu
+For more information, please contact cdavodi@berkeley.edu.
